@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:text="INPUT DATA MAHASISWA"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/editNIM"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:ems="10"
+        android:padding="20dp"
+        android:inputType="number"
+        android:hint="Masukan NIM"
+        />
+<!--        salah di type-->
+
+    <EditText
+        android:id="@+id/editNama"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:ems="10"
+        android:hint="Masukan Nama"
+        android:inputType="number"
+        android:padding="20dp" />
+
+    <EditText
+        android:id="@+id/tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:ems="10"
+        android:hint="Set Tanggal Lahir"
+        android:inputType="number"
+        android:focusableInTouchMode="false"
+        android:onClick="setTanggal"
+        android:padding="20dp" />
+
+    <EditText
+        android:id="@+id/waktu"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:hint="Set Tanggal Waktu"
+        android:inputType="number"
+        android:onClick="setWaktu"
+        android:padding="20dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIMPAN" />
+
+    <Button
+        android:id="@+id/btn_main2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To main2" />
+
+
+</LinearLayout>
